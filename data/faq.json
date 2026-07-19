@@ -1,0 +1,17 @@
+[
+  {"question": "hello", "answer": "hello how can i help you"},
+  {"question": "hi", "answer": "hi what do you need"},
+  {"question": "forgot password", "answer": "you can reset your password in the settings"},
+  {"question": "how to change my password", "answer": "go to settings and click on security"},
+  {"question": "the site is down", "answer": "we are currently experiencing technical issues please wait"},
+  {"question": "connection error", "answer": "check your internet connection and try again"},
+  {"question": "i want to unsubscribe", "answer": "you can cancel your subscription in the billing section"},
+  {"question": "how to cancel my subscription", "answer": "go to billing and click on cancel"},
+  {"question": "thank you", "answer": "you are welcome have a nice day"},
+  {"question": "goodbye", "answer": "goodbye and see you soon"},
+  {"question": "where is my invoice", "answer": "your invoices are available in your customer area"},
+  {"question": "how to contact support", "answer": "you can email us at support@helpdesk.com"},
+  {"question": "do you have a mobile app", "answer": "yes it is available on ios and android"},
+  {"question": "the app crashes", "answer": "try updating it or reinstalling it"},
+  {"question": "subscription price", "answer": "the basic subscription costs ten dollars a month"}
+]
