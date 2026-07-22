@@ -1,41 +1,78 @@
-# 🎧 HelpDesk AI Support Assistant
+# HelpDesk AI 🚀
 
-HelpDesk AI is a professional, intelligent customer support chatbot built with Python and Streamlit. It leverages dual AI engines to provide rapid problem resolution and features a modern, glassmorphism-inspired UI.
+<div align="center">
+  <img src="preview.gif" alt="Project Preview" width="600"/>
+  <p><em>Replace <code>preview.gif</code> with your actual screenshot or GIF. / Remplacez <code>preview.gif</code> par votre vraie capture d'écran ou GIF.</em></p>
+  
+  <br />
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-000000?style=flat-square&logo=nlp&logoColor=white)
+</div>
 
-![Project Preview](preview.gif)
+---
 
-## ✨ Key Features
+<details open>
+  <summary><b>Table of Contents / Table des matières</b></summary>
+  <ul>
+    <li><a href="#-english">🇬🇧 English</a></li>
+    <ul>
+      <li><a href="#-about-the-project">About the Project</a></li>
+      <li><a href="#-key-features">Key Features</a></li>
+      <li><a href="#-getting-started">Getting Started</a></li>
+    </ul>
+    <li><a href="#-français">🇫🇷 Français</a></li>
+    <ul>
+      <li><a href="#-à-propos-du-projet">À propos du projet</a></li>
+      <li><a href="#-fonctionnalités-clés">Fonctionnalités clés</a></li>
+      <li><a href="#-démarrage-rapide">Démarrage rapide</a></li>
+    </ul>
+  </ul>
+</details>
 
-- **Dual AI Engines**: 
-  - 🌐 **Cloud AI (GPT4Free)**: Advanced natural language understanding without requiring expensive API keys.
-  - 🧠 **Local AI (PyTorch Seq2Seq)**: Fully offline, custom-trained AI built for specific company FAQs, guaranteeing data privacy.
-- **⚡ Quick Actions**: One-click resolution for the most common user queries (e.g., Password Reset, Connection Errors).
-- **📄 Transcript Export**: Allows users to download their entire chat session as a `.txt` file, simulating the creation of a real Customer Support Ticket.
-- **💎 Premium UI**: Built with Streamlit, featuring a dark mode glassmorphism design, custom CSS, and a professional layout.
+---
 
-## 🚀 Installation & Usage
+## 🇬🇧 English
 
-1. **Install Dependencies:**
+### 📖 About the Project
+A Seq2Seq AI chatbot with an Attention mechanism built in PyTorch to automatically answer Frequently Asked Questions.
+
+### ✨ Key Features
+- 🤖 Seq2Seq architecture with Attention
+- 💬 Natural language understanding
+- ⚡ Fast inference for real-time chat
+- 🌐 Clean Streamlit UI
+
+### 💻 Getting Started
+To get a local copy up and running, execute the following commands:
 ```bash
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-2. **(Optional) Train the Local PyTorch Model:**
-```bash
-python train.py
-```
-*(This will train the offline Seq2Seq model using the english `data/faq.json` database).*
-
-3. **Launch the Application:**
-```bash
 streamlit run app.py
 ```
 
-## 🛠️ Technologies Used
-- **Python 3**
-- **Streamlit** (Frontend framework)
-- **PyTorch** (Local neural network engine)
-- **GPT4Free (g4f)** (Cloud AI integration)
+---
+
+## 🇫🇷 Français
+
+### 📖 À propos du projet
+Un chatbot IA Seq2Seq avec mécanisme d'attention développé en PyTorch pour répondre automatiquement aux questions fréquentes (FAQ).
+
+### ✨ Fonctionnalités clés
+- 🤖 Architecture Seq2Seq avec Attention
+- 💬 Compréhension du langage naturel
+- ⚡ Inférence rapide pour le chat en direct
+- 🌐 Interface utilisateur épurée via Streamlit
+
+### 💻 Démarrage rapide
+Pour installer et lancer ce projet localement, exécutez ces commandes :
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
-*Created for the final jury presentation.*
+<div align="center">
+  <sub>Built with ❤️ by Ricardo | AI & Full-Stack Developer</sub>
+</div>
